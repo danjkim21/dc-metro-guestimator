@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>DC Metro Guestimator</title>
+
+		<!-- external CSS link -->
+		<script src="https://kit.fontawesome.com/a2f02755e4.js" crossorigin="anonymous"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<main>
+			<h1>DC Metro Guestimator</h1>
+			<section id="trainSelectionOptions">
+				<!-- Selectors and button to choose line and station options -->
+				<select name="" id="lineSelector">
+					<option value="" selected disabled hidden>Select Line</option>
+					<option value="RD">Red</option>
+					<option value="YL">Yellow</option>
+					<option value="GR">Green</option>
+					<option value="BL">Blue</option>
+					<option value="OR">Orange</option>
+					<option value="SV">Silver</option>			
+				</select>
+		
+				<select name="" id="stationSelector">
+					<option value="" selected disabled hidden>Select Station</option>
+				</select>
+	
+				<button class="myButton">Find station</button>
+				
+			</section>
+		</main>
+		
+
+				
+		<section id="pageDescription">
+			<p>Select a train line and location. Your train should arrive at your location based on the estimated arrival time, in theory. </p>
+			<p id="textDisclaimer" class="hidden"><em>*Give or take an hour, depending on single tracking, derailed trains, cherry blossoms season, crumbling infrastructure, twitter hacks, or if the Metro is on fire, literally.</em></p>
+		</section>
+		
+		<section id="trainMetroSigns">
+			<section id="sign1">
+				<section class="flexLeft">
+					<i class="fa-solid fa-circle-arrow-left fa"></i>
+				</section>
+
+				<section class="flexRight">
+					<h2 id="stopSign1">Station Name</h2>
+					<section id="directionSign1">
+						<span id="destinations1"></span>
+						
+					</section>
+				</section>
+			</section>
+
+			<section id="sign2">
+				<section class="flexLeft">
+					<i class="fa-solid fa-circle-arrow-right fa"></i>
+				</section>
+
+				<section class="flexRight">
+					<h2 id="stopSign2">Station Name</h2>
+					<section id="directionSign2">
+						<span id="destinations2"></span>
+
+					</section>
+
+				</section>
+			</section>
+		</section>
+		
+		<section id="trainEstTables">
+			<section class="tableBox">
+				<table id="table1">
+					<thead>
+						<tr>
+							<th>LN</th>
+							<th>CAR</th>	
+							<th>DEST</th>
+							<th>MIN</th>
+						</tr>
+					</thead>
+	
+					<tbody id="group1">
+					</tbody>
+				</table>
+			</section>
+		
+			<section class="tableBox">
+				<table id="table2">
+					<thead>
+						<tr>
+							<th>LN</th>
+							<th>CAR</th>	
+							<th>DEST</th>
+							<th>MIN</th>
+						</tr>
+					</thead>
+	
+					<tbody id="group2">
+					</tbody>
+				</table>
+			</section>
+		</section>
+
+
+
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
