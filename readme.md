@@ -2,6 +2,10 @@
 
 Moving out of the DMV, after almost eight long years, I've decided to pay tribute to DC's greatest engineering and urban planning disaster--The DC Metro. The DC Metro Guestimator will allow the user to select a Metro line and a Metro stop. The result will return two arrival time monitors with the next calculated arrival times of incoming trains.
 
+<p align="center">
+  <img src="img/dc-metro-app-screenshot.png" width="85%" alt="Metro app screenshot"/>
+</p>
+
 
 ## How It's Made
 
