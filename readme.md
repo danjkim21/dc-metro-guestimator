@@ -3,7 +3,7 @@
 Moving out of the DMV, after almost eight long years, I've decided to pay tribute to DC's greatest engineering and urban planning disaster--The DC Metro. The DC Metro Guestimator will allow the user to select a Metro line and a Metro stop. The result will return two arrival time monitors with the next calculated arrival times of incoming trains.
 
 
-### How It's Made
+## How It's Made
 
 **Tech used:** HTML, CSS, JavaScript. <br>
 
@@ -11,7 +11,7 @@ In this pet project, played around with the Wahington Metropolitan Area Transit 
 
 Data was pulled from the [WMATA API](https://developer.wmata.com/)
 
-### Lessons Learned:
+## Lessons Learned:
 
 I've learned how powerful common object and array methods are, such as, .filter(), .map(), and forEach(). My daily coding practice on CodeWars has been extremely helpful and I'm feeling more and more confident manipulating and playing around with API data.
 
