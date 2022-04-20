@@ -20,7 +20,8 @@ I've learned how powerful common object and array methods are, such as, .filter(
 - [ ] Fully update README
 - [ ] Mobile responsive
 - [ ] Refactor, refactor, refactor, & refactor
-- [ ] Figure out how to generate Metro Line colors and insert them into the signs
+- [ ] Automatically refresh train arrival estimates instead of on page refresh
+- [ ] Generate Metro Line colors and insert them into the signs
 
 
 <!-- CONTACT -->
