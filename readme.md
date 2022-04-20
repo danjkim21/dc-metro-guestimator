@@ -11,7 +11,7 @@ In this pet project, played around with the Wahington Metropolitan Area Transit 
 
 Data was pulled from the [WMATA API](https://developer.wmata.com/)
 
-## Lessons Learned:
+### Lessons Learned:
 
 I've learned how powerful common object and array methods are, such as, .filter(), .map(), and forEach(). My daily coding practice on CodeWars has been extremely helpful and I'm feeling more and more confident manipulating and playing around with API data.
 
