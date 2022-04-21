@@ -21,7 +21,7 @@ I've learned how powerful common object and array methods are, such as, .filter(
 
 ## Roadmap
 
-- [ ] Fully update README
+- [x] Fully update README
 - [ ] Mobile responsive
 - [ ] Refactor, refactor, refactor, & refactor
 - [ ] Automatically refresh train arrival estimates instead of on page refresh
