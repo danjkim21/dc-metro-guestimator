@@ -3,19 +3,22 @@
 /*******************************************/
 
 /* Box Model Hack */
-*{
+* {
   box-sizing: border-box;
-  font-family: "Helvetica Neue Bold", Helvetica, sans-serif;
+  font-family: 'Helvetica Neue Bold', Helvetica, sans-serif;
 }
-h1, p, button, select{
-  font-family: "Source Sans Pro";
+h1,
+p,
+button,
+select {
+  font-family: 'Source Sans Pro';
 }
 
 .fa.fa-circle-arrow-left {
   color: antiquewhite;
   font-size: 1.5rem;
 }
-.fa.fa-circle-arrow-right{
+.fa.fa-circle-arrow-right {
   color: antiquewhite;
   font-size: 1.5rem;
 }
@@ -23,10 +26,12 @@ span {
   text-align: center;
   color: antiquewhite;
 }
-h1, p, button, select{
+h1,
+p,
+button,
+select {
   color: white;
 }
-
 
 /******************************************
 /* LAYOUT
@@ -35,7 +40,6 @@ h1 {
   margin: 0;
 }
 p {
-
   line-height: 1.5;
 }
 main {
@@ -53,7 +57,6 @@ main {
 body {
   padding: 0 0 2.5vh 0;
   background-color: #2e333a;
-  
 }
 
 #lineSelector {
@@ -67,12 +70,13 @@ body {
   margin: 4vh 20vw 4vh 20vw;
   padding: 10px 2rem;
   background-color: #23272d;
-  
+
   border: 1px solid #414141;
   border-radius: 10px;
 }
 
-#sign1, #sign2 {
+#sign1,
+#sign2 {
   padding: 10px;
   background-color: #1d1d1d;
   border: 1px solid #414141;
@@ -84,25 +88,26 @@ body {
   /* -webkit-box-shadow: 0px 0px 24px 5px #C1C1C1; 
   box-shadow: 0px 0px 24px 5px #C1C1C1; */
 }
-  .flexLeft {
-    align-self: center;
-  }
-  .flexRight {
-    width: 100%;
-  }
-  #stopSign1, #stopSign2 {
-    color: antiquewhite;
-    text-align: center;
-    margin-top: 5px;
-    margin-bottom: 5px;
-
-  }
-  #directionSign1, #directionSign2 {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
-  }
+.flexLeft {
+  align-self: center;
+}
+.flexRight {
+  width: 100%;
+}
+#stopSign1,
+#stopSign2 {
+  color: antiquewhite;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#directionSign1,
+#directionSign2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
 
 .tableBox {
   padding: 10px;
@@ -112,17 +117,17 @@ body {
   border-radius: 10px;
   /* -webkit-box-shadow: 0px 0px 24px 5px #C1C1C1; 
   box-shadow: 0px 0px 24px 5px #C1C1C1; */
-
 }
 
-#trainSelectionOptions{
+#trainSelectionOptions {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 0.5rem; 
+  gap: 0.5rem;
 }
 
-#trainEstTables ,#trainMetroSigns{
+#trainEstTables,
+#trainMetroSigns {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -162,10 +167,13 @@ td:nth-child(4) {
   text-align: right;
   padding-right: 1rem;
 }
-
-
-
-
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
@@ -178,7 +186,8 @@ td:nth-child(4) {
   body {
     padding: 0;
   }
-  #lineSelector, #stationSelector {
+  #lineSelector,
+  #stationSelector {
     width: 100%;
   }
   select {
@@ -194,33 +203,32 @@ td:nth-child(4) {
   }
 }
 
-
 select {
   padding: 6px 26px 6px 16px;
   color: aliceblue;
-  border-radius:8px;
+  border-radius: 8px;
   font-size: 18px;
   border: 1px solid rgb(154, 160, 165);
   background-color: #23272d;
 }
 .myButton {
-	background-color:#44c767;
-  border-radius:8px;
-	border:1px solid #18ab29;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
+  background-color: #44c767;
+  border-radius: 8px;
+  border: 1px solid #18ab29;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
   font-size: 18px;
 
-	padding:6px 26px;
+  padding: 6px 26px;
   font-weight: 700;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #2f6627;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
 }
 .myButton:hover {
-	background-color:#5cbf2a;
+  background-color: #5cbf2a;
 }
 .myButton:active {
-	position:relative;
-	top:1px;
+  position: relative;
+  top: 1px;
 }
